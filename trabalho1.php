@@ -11,10 +11,10 @@ print "Quantos espetinhos foram consumidos? ";
 #--------------------------------------------------------
 	$bc=($ceva*2.5)+($refr*2)+($espt*4);
 #--------------------------------------------------------	
-	if ($sexo=="H"||$sexo=="h"){
+	if ($sexo=="M"||$sexo=="m"){
 		$cta=10;		
 	}
-	else{if($sexo=="M"||$sexo=="m"){
+	else{if($sexo=="F"||$sexo=="f"){
 		$cta=8;
 	}
 	}
