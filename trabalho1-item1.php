@@ -41,7 +41,7 @@ print "Quantos espetinhos foram consumidos? ";
 print "\nValor da conta:\n";
 print "\nR$".$cta."(valor básico)";
 print "\nR$".$bc."(bebida e comida)";
-print "\nR$".$cover."(cantores)";
+print "\nR$".$cover."(artistas)";
 print "\nR$".$sub."(subtotal sem 10%)";
 print "\n------------------------------------------";
 print "\nR$".$total." TOTAL";
