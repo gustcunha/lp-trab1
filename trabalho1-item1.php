@@ -44,5 +44,6 @@ print "\nR$ ".$bc."(bebida e comida)";
 print "\nR$ ".$cover."(artistas)";
 print "\nR$ ".$sub."(subtotal sem 10%)";
 print "\n------------------------------------------";
-print "\nR$ ".$total." TOTAL";
+print "\nR$ m
+		".$total." TOTAL";
 
