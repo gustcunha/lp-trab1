@@ -3,18 +3,18 @@ print "CALCULADORA DE IMPOSTOS\n\n";
 
 # ENTRADA DE DADOS
 
-print "Total de rendimentos banc·rios: ";
+print "Total de rendimentos banc√°rios: ";
 	$rend=trim(fgets(STDIN));
-print "Total de rendimentos de sal·rios ou serviÁos: ";
+print "Total de rendimentos de sal√°rios ou servi√ßos: ";
 	$sal=trim(fgets(STDIN));
 print "Total de outros rendimentos: ";
 	$outros=trim(fgets(STDIN));
-print "ServiÁos mÈdicos pagos: ";
+print "Servi√ßos m√©dicos pagos: ";
 	$med=trim(fgets(STDIN));
-print "ServiÁos educacionais pagos: ";
+print "Servi√ßos educacionais pagos: ";
 	$edu=trim(fgets(STDIN));
 
-# C¡LCULO IMPOSTOS
+# C√ÅLCULO IMPOSTOS
 
 	$irb=$rend*0.20;
 	$ior=$outros*0.10;
@@ -29,7 +29,7 @@ print "ServiÁos educacionais pagos: ";
 	}
 	$it=$irb+$ior+$ir;
 	
-# C¡LCULOS ABATIMENTOS
+# C√ÅLCULOS ABATIMENTOS
 
 	$abt=$med+$edu;
 	$x=$it*0.30;
@@ -44,17 +44,17 @@ print "ServiÁos educacionais pagos: ";
 	$abat=$it-$IT; 
 		
 print "\n\nIMPOSTOS A PAGAR:\n
-R$ ".number_format($irb,2,',','.')." (sobre rendimentos banc·rios)
-R$ ".number_format($ir,2,',','.')." (sobre sal·rios serviÁos)
+R$ ".number_format($irb,2,',','.')." (sobre rendimentos banc√°rios)
+R$ ".number_format($ir,2,',','.')." (sobre sal√°rios servi√ßos)
 R$ ".number_format($ior,2,',','.')." (sobre outros rendimentos)
 R$ ".number_format($it,2,',','.')." (total)
 -------------------------------------------
-Total de valores possÌveis de abater:
-R$ ".number_format($med,2,',','.')." (serviÁos mÈdicos)
-R$ ".number_format($edu,2,',','.')." (serviÁos educacionais)
+Total de valores poss√≠veis de abater:
+R$ ".number_format($med,2,',','.')." (servi√ßos m√©dicos)
+R$ ".number_format($edu,2,',','.')." (servi√ßos educacionais)
 R$ ".number_format($abt,2,',','.')." (total)
 -------------------------------------------
-Abatimento m·ximo permitido:
+Abatimento m√°ximo permitido:
 R$ ".number_format($abat,2,',','.')." 
 -------------------------------------------
 IMPOSTOS TOTAIS:
