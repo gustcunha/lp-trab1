@@ -11,12 +11,12 @@ print "Quantos refrigerantes foram consumidos? ";
 print "Quantos espetinhos foram consumidos? ";
 	$espt=trim(fgets(STDIN));
 
-#C¡LCULO PRINCIPAL 
+#C√ÅLCULO PRINCIPAL 
 
 	$bc=($ceva*2.5)+($refr*2)+($espt*4);
 
 	
-#C¡LCULOS COMPLEMENTARES
+#C√ÅLCULOS COMPLEMENTARES
 
 	if($bc<=15){
 		$cover=3;
@@ -39,11 +39,10 @@ print "Quantos espetinhos foram consumidos? ";
 #RETORNO DE DADOS
 	
 print "\nValor da conta:\n";
-print "\nR$ ".$cta."(valor b·sico)";
+print "\nR$ ".$cta."(valor b√°sico)";
 print "\nR$ ".$bc."(bebida e comida)";
 print "\nR$ ".$cover."(artistas)";
 print "\nR$ ".$sub."(subtotal sem 10%)";
 print "\n------------------------------------------";
-print "\nR$ m
-		".$total." TOTAL";
+print "\nR$ ".$total." TOTAL";
 
