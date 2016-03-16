@@ -55,7 +55,7 @@ R$ ".number_format($edu,2,',','.')." (serviços educacionais)
 R$ ".number_format($abt,2,',','.')." (total)
 -------------------------------------------
 Abatimento máximo permitido:
-R$ ".number_format($abat,2,',','.')." 
+R$ ".number_format($x,2,',','.')." 
 -------------------------------------------
 IMPOSTOS TOTAIS:
 R$ ".number_format($it,2,',','.')." (imposto bruto)
